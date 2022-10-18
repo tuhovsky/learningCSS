@@ -1,13 +1,4 @@
+/* This is a single-line comment */
 body {
-    background-color: lightblue;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-}
-
-p {
-    font-family: Verdana;
-    font-size: 20px;
+    background-color: navy;
 }
