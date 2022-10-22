@@ -1,15 +1,4 @@
-div {
-    background: rgb(0, 128, 0);
-}
-
-div.first {
-    background: rgb(0, 128, 0, 0.1)
-}
-
-div.second {
-    background: rgb(0, 128, 0, 0.3)
-}
-
-div.third {
-    background: rgb(0, 128, 0, 0.6)
+body {
+    background: #ffffff url("../images/image.jpg") no-repeat fixed right top;
+    margin-right: 1800px;    
 }
