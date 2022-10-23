@@ -1,19 +1,22 @@
-body {
-    text-align: center;
+p.normal {
+    border: 2px solid red;
+    padding: 5px;
 }
-/* Four values */
-p.four {
-    border-style: dotted solid double dashed;
+
+p.round1 {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
 }
-/* Three values */
-p.three {
-    border-style: dotted solid double;
+
+p.round2 {
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
 }
-/* Two values */
-p.two {
-    border-style: dotted solid;
-}
-/* One value */
-p.one {
-    border-style: dotted;
+
+p.round3 {
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
 }
