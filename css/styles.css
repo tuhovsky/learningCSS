@@ -1,5 +1,7 @@
-div {
-    max-height: 600px;
-    min-height: 400px;
-    background-color: powderblue;
+p {
+    border: 2px solid black;
+    outline: #4caf50 solid 10px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
 }
