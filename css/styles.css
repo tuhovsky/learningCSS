@@ -1,21 +1,14 @@
-div {
-    border: 1px solid gray;
-    padding: 8px;
+body {
+    background-color: lightgray;
+    color: blue;
 }
 
 h1 {
-    text-align: center;
-    text-transform: uppercase;
-    color: #4caf50;
+    background-color: black;
+    color: white;
 }
 
-p {
-    text-indent: 50px;
-    text-align: justify;
-    letter-spacing: 3px;
-}
-
-a {
-    text-decoration: none;
-    color: #008cba;
+div {
+    background-color: blue;
+    color: white;
 }
