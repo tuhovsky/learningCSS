@@ -1,21 +1,11 @@
-h1 {
-    text-decoration-line: underline;
-    text-decoration-thickness: auto; /* this is default */
+p.uppercase {
+    text-transform: uppercase;
 }
 
-h2 {
-    text-decoration-line: underline;
-    text-decoration-thickness: 5px;
+p.lowercase {
+    text-transform: lowercase;
 }
 
-h3 {
-    text-decoration-line: underline;
-    text-decoration-thickness: 25%;
-}
-
-p {
-    text-decoration-line: underline;
-    text-decoration-color: red;
-    text-decoration-style: double;
-    text-decoration-thickness: 5px;
+p.capitalize {
+    text-transform: capitalize;
 }
