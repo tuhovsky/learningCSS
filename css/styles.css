@@ -1,3 +1,7 @@
-body {
-    font-family: 'Brush Script MT', cursive;
+p.normal {
+    font-variant: normal;
+}
+
+p.small {
+    font-variant: small-caps;
 }
