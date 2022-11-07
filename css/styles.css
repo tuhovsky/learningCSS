@@ -1,9 +1,7 @@
-body {
-    font-family: Lora, serif;
-    font-size: 16px;    
+p.a {
+    font: 20px Arial, sans-serif;
 }
 
-h1 {
-    font-family: Ubuntu, sans-serif;
-    font-size: 46px;
+p.b {
+    font: italic bold 12px/30px Georgia, serif;
 }
