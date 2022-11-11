@@ -1,23 +1,26 @@
-ul.a {list-style-type: circle;}
-ul.b {list-style-type: disc;}
-ul.c {list-style-type: square;}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
 
-ol.d {list-style-type: armenian;}
-ol.e {list-style-type: cjk-ideographic;}
-ol.f {list-style-type: decimal;}
-ol.g {list-style-type: decimal-leading-zero;}
-ol.h {list-style-type: georgian;}
-ol.i {list-style-type: hebrew;}
-ol.j {list-style-type: hiragana;}
-ol.k {list-style-type: hiragana-iroha;}
-ol.l {list-style-type: katakana;}
-ol.m {list-style-type: katakana-iroha;}
-ol.n {list-style-type: lower-alpha;}
-ol.o {list-style-type: lower-greek;}
-ol.p {list-style-type: lower-latin;}
-ol.q {list-style-type: lower-roman;}
-ol.r {list-style-type: upper-alpha;}
-ol.s {list-style-type: upper-latin;}
-ol.t {list-style-type: upper-roman;}
-ol.u {list-style-type: none;}
-ol.v {list-style-type: inherit;}
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04aa6d;
+    color: white;
+}
