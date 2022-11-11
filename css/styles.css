@@ -1,5 +1,5 @@
-table, td, th {
-    border: 1px solid black;
+div {
+    overflow-x: auto;
 }
 
 table {
@@ -7,6 +7,11 @@ table {
     width: 100%;
 }
 
-th {
-    height: 70px;
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
