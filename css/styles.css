@@ -1,12 +1,13 @@
-.imgbox {
-    float: left;
+#panel, .flip {
+    font-size: 16px;
+    padding: 10px;
     text-align: center;
-    width: 120px;
-    border: 1px solid gray;
-    margin: 4px;
-    padding: 6px;
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #a6d8a8;
+    margin: auto;
 }
 
-button {
-    width: 100%;
+#panel {
+    display: none;
 }
