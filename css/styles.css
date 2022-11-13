@@ -1,17 +1,12 @@
-div {
-    overflow-x: auto;
+.imgbox {
+    float: left;
+    text-align: center;
+    width: 120px;
+    border: 1px solid gray;
+    margin: 4px;
+    padding: 6px;
 }
 
-table {
-    border-collapse: collapse;
+button {
     width: 100%;
-}
-
-th, td {
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
 }

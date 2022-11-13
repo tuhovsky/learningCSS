@@ -9,70 +9,39 @@
 </head>
 <body>
     
-    <h2>Responsive Table</h2>
-    <p>A responsive table will display a horizontal scroll bar if the screen is too small to display the full content. Resize the browser window to see the effect:</p>
-    <p>To create a responsive table, add a container element (like div) with <strong>overflow-x:auto</strong> around the table element:</p>
+    <h3>Difference between display:none and visibility:hidden</h3>
+    <p><strong>visibility:hidden</strong> hides the element, but it still takes up space in the layout.</p>
+    <p><strong>display:none</strong> removes the element from the document. It does not take up any space.</p>
 
-    <div>
-        <table>
-            <tr>
-                <th>Firstname</th>
-                <th>Lastname</th>
-                <th>Points</th>
-                <th>Points</th>
-                <th>Points</th>
-                <th>Points</th>
-                <th>Points</th>
-                <th>Points</th>
-                <th>Points</th>
-                <th>Points</th>
-                <th>Points</th>
-                <th>Points</th>
-            </tr>
-            <tr>
-                <td>Jill</td>
-                <td>Smith</td>
-                <td>50</td>
-                <td>50</td>
-                <td>50</td>
-                <td>50</td>
-                <td>50</td>
-                <td>50</td>
-                <td>50</td>
-                <td>50</td>
-                <td>50</td>
-                <td>50</td>
-            </tr>
-            <tr>
-                <td>Eve</td>
-                <td>Jackson</td>
-                <td>94</td>
-                <td>94</td>
-                <td>94</td>
-                <td>94</td>
-                <td>94</td>
-                <td>94</td>
-                <td>94</td>
-                <td>94</td>
-                <td>94</td>
-                <td>94</td>
-            </tr>
-            <tr>
-                <td>Adam</td>
-                <td>Johnson</td>
-                <td>67</td>
-                <td>67</td>
-                <td>67</td>
-                <td>67</td>
-                <td>67</td>
-                <td>67</td>
-                <td>67</td>
-                <td>67</td>
-                <td>67</td>
-                <td>67</td>
-            </tr>
-        </table>
+    <div class="imgbox" id="imgbox1">Box 1<br>
+        <img src="images/img_5terre.jpg" alt="Italy" style="width:100%;">
+        <button onclick="removeElement()">Remove</button>
     </div>
+
+    <div class="imgbox" id="imgbox2">Box 2<br>
+        <img src="images/img_lights.jpg" alt="Lights" style="width:100%;">
+        <button onclick="changeVisibility()">Hide</button>
+    </div>
+
+    <div class="imgbox">Box 3<br>
+        <img src="images/img_forest.jpg" alt="Forest" style="width:100%;">
+        <button onclick="resetElements()">Reset All</button>
+    </div>
+
+    <script>
+        function removeElement() {
+            document.getElementById("imgbox1").style.display = "none";
+        }
+
+        function changeVisibility() {
+            document.getElementById("imgbox2").style.visibility = "hidden";
+        }
+
+        function resetElements() {
+            document.getElementById("imgbox1").style.display = "block";
+            document.getElementById("imgbox2").style.visibility = "visible";
+        }
+    </script>
 
 </body>
 </html>
