@@ -4,7 +4,7 @@
 
 .black-box {
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
     border: 2px solid black;
     height: 100px;
     margin: 30px;
@@ -12,7 +12,7 @@
 
 .gray-box {
     position: absolute;
-    z-index: 3; /* gray box will be above both green and black box */
+    /* z-index: 3; /* gray box will be above both green and black box */
     background: lightgray;
     height: 60px;
     width: 70%;
@@ -22,7 +22,7 @@
 
 .green-box {
     position: absolute;
-    z-index: 2; /* green box will be above black box */
+    /* z-index: 2; /* green box will be above black box */
     background: lightgreen;
     width: 35%;
     left: 270px;
