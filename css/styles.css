@@ -1,9 +1,7 @@
-#overflowTest {
-    background: #4caf50;
-    color: black;
-    padding: 15px;
-    width: 50%;
-    height: 100px;
-    overflow: auto;
-    border: 1px solid #ccc;
+div {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;
 }
