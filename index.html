@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    
+    <h1>Z-index Example</h1>
 
-    <h1>This is a heading</h1>
-    <img src="images/img_tree.png" alt="Tree">
-    <p>Because the image has a z-index -1, it will placed behind the text.</p>
+    <p>An element with greater stack order is always above an element with a lower stack order.</p>
+
+    <div class="container">
+        <div class="black-box">Black-box (z-index: 1)</div>
+        <div class="gray-box">Gray-box (z-index: 3)</div>
+        <div class="green-box">Green-box (z-index: 2)</div>
+    </div>
 
 </body>
 </html>
