@@ -9,11 +9,21 @@
 </head>
 <body>
     
-    <h2>Center Align Elements</h2>
-    <p>To horizontally center a block element (like div), use margin: auto;</p>
+    <h2>Without Clearfix</h2>
 
-    <div class="center">
-        <p>Hello World!</p>
+    <p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container:</p>
+
+    <div>
+        <img class="img1" src="images/pineapple.jpg" alt="Pineapple" width="170" height="170">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et hic sit ad cum quae a minima obcaecati ea modi ratione sunt, quas aliquid tempore sed quaerat repudiandae placeat non vel?
+    </div>
+
+    <h2 style="clear:right">With New Modern Clearfix</h2>
+    <p>Add the clearfix hack to the containing element, to fix this problem:</p>
+
+    <div class="clearfix">
+        <img class="img2" src="images/pineapple.jpg" alt="Pineapple" width="170" height="170">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et hic sit ad cum quae a minima obcaecati ea modi ratione sunt, quas aliquid tempore sed quaerat repudiandae placeat non vel?
     </div>
 
 </body>
