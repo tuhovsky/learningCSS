@@ -1,9 +1,3 @@
-p {
-    display: none;
-    background-color: yellow;
-    padding: 20px;
-}
-
-div:hover p {
-    display: block;
+p:first-child {
+    color: blue;
 }
