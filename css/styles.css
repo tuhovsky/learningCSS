@@ -1,3 +1,3 @@
-input:focus {
-    background-color: yellow;
+h1::before {
+    content: url('../images/w3css.gif');
 }
