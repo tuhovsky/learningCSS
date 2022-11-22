@@ -1,16 +1,17 @@
-div {
-    background: rgb(76, 175, 80);
-    padding: 10px;
+div.background {
+    background: url('../images/klematis4_big.jpg') repeat;
+    border: 2px solid black;
 }
 
-div.first {
-    background: rgba(76, 175, 80, 0.1);
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
 }
 
-div.second {
-    background: rgba(76, 175, 80, 0.3);
-}
-
-div.third {
-    background: rgba(76, 175, 80, 0.6);
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
 }
