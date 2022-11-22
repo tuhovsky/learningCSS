@@ -1,3 +1,4 @@
-h1::after {
-    content: url('../images/w3css.gif');
+::marker {
+    color: red;
+    font-size: 23px;
 }
