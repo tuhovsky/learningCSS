@@ -10,12 +10,17 @@
 <body>
     
     <h1>Transprent box</h1>
-    <p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparentas well. This can make the text inside a fully transparent element hard to read:</p>
+    <p>With opacity:</p>
+    <div style="opacity:0.1;"><p>10% opacity</p></div>
+    <div style="opacity:0.3;"><p>30% opacity</p></div>
+    <div style="opacity:0.6;"><p>60% opacity</p></div>
+    <div><p>opacity 1</p></div>
 
-    <div class="first"><p>opacity 0.1</p></div>
-    <div class="second"><p>opacity 0.3</p></div>
-    <div class="third"><p>opacity 0.6</p></div>
-    <div><p>opacity 1 (default)</p></div>
+    <p>With RGBA color values:</p>
+    <div class="first"><p>10% opacity</p></div>
+    <div class="second"><p>30% opacity</p></div>
+    <div class="third"><p>60% opacity</p></div>
+    <div><p>default</p></div>
 
 </body>
 </html>
