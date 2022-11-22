@@ -1,4 +1,4 @@
-::marker {
+::selection {
     color: red;
-    font-size: 23px;
+    background: yellow;
 }
