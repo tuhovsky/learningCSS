@@ -9,20 +9,21 @@
 </head>
 <body>
     
-    <ul class="sidenav">
-        <li><a class="active" href="">Home</a></li>
+    <ul>
+        <li><a href="">Home</a></li>
         <li><a href="">News</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">About</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+            <div class="dropdown-content">
+                <a href="">Link 1</a>
+                <a href="">Link 2</a>
+                <a href="">Link 3</a>
+            </div>
+        </li>
     </ul>
 
-    <div class="content">
-        <h2>Responsive Sidenav Example</h2>
-        <p>This example use media queries to transform the sidenav to a top navigation bar when the screen size is 900px or less.</p>
-        <p>We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.</p>
-        <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-        <h4>Resize the browser windows to see the effect.</h4>
-    </div>
+    <h3>Dropdown menu inside a Navigation Bar</h3>
+    <p>Hover over the "Dropdown" link to see the dropdown menu.</p>
 
 </body>
 </html>
