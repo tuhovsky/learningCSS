@@ -32,3 +32,15 @@
     width: 43px;
     background: url('../images/img_navsprites.gif') -91px 0;
 }
+
+#home a:hover {
+    background: url('../images/img_navsprites_hover.gif') 0 -45px;
+}
+
+#prev a:hover {
+    background: url('../images/img_navsprites_hover.gif') -47px -45px;
+}
+
+#next a:hover {
+    background: url('../images/img_navsprites_hover.gif') -91px -45px;
+}
