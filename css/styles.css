@@ -1,5 +1,5 @@
 input[type=text] {
-    width: 100%;
+    width: 130px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -9,4 +9,9 @@ input[type=text] {
     background-position: 4px 1px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
 }
