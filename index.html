@@ -9,13 +9,26 @@
 </head>
 <body>
 
-    <h2>Styling Forms</h2>
+    <h3>Using CSS to style an HTML Form</h3>
 
-    <form name="input" action="" method="get">
-        Firstname:<input type="text" name="Name" value="Peter" size="20">
-        Lastname:<input type="text" name="Name" value="Griffin" size="20">
-        <input type="button" value="Example Button">
-    </form>
+    <div>
+        <form action="/action_page.php">
+            <label for="fname">Fitst Name</label>
+            <input type="text" name="firstname" id="fname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lastname" id="lname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
     
 </body>
 </html>
