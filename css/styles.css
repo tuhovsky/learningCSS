@@ -35,11 +35,20 @@ body {
     color: black;
 }
 
-/* Create three equal columns that floats next to each other */
+/* Create three unequal columns that floats next to each other */
 .column {
     float: left;
-    width: 33.33%;
     padding: 15px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
 }
 
 /* Clear floats after the columns */
@@ -51,14 +60,14 @@ body {
 
 /* Responsive layout - makes the three columns stack in two columns on screens less than 800px */
 @media screen and (max-width:800px) {
-    .column {
+    .column.side, .column.middle {
         width: 49%;
     }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
-    .column {
+    .column.side, .column.middle {
         width: 100%;
     }
 }
