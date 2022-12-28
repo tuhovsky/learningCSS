@@ -1,9 +1,10 @@
-ol {
-    counter-reset: section;
-    list-style-type: none;
+body {
+    margin: 0;
 }
 
-li::before {
-    counter-increment: section;
-    content: counters(section,".") " ";
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
 }
