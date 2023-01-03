@@ -100,3 +100,8 @@ body {
         width: 100%;
     }
 }
+
+h6 {
+    color: green;
+    text-align: left;
+}
