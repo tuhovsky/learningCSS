@@ -1,8 +1,7 @@
-body {
-    font-size: 16px;
+.intro {
+    background-color: yellow;
 }
 
-div {
-    font-size: 150%;
-    border: 1px solid black;
+h1 {
+    background-color: red;
 }
