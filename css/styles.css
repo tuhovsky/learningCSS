@@ -1,3 +1,8 @@
-h1 {
-    font-size: 10vmax;
+body {
+    font-size: 16px;
+}
+
+div {
+    font-size: 150%;
+    border: 1px solid black;
 }
