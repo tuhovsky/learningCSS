@@ -1,7 +1,11 @@
-.intro {
-    background-color: yellow;
+#myid {
+    background-color: blue;
 }
 
-h1 {
-    background-color: red;
+.myclass {
+    background-color: gray;
+}
+
+p {
+    background-color: red !important;
 }
