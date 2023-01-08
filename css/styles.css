@@ -1,9 +1,9 @@
 #myid {
-    background-color: blue;
+    background-color: blue !important;
 }
 
 .myclass {
-    background-color: gray;
+    background-color: gray !important;
 }
 
 p {
