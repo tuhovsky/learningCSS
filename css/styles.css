@@ -1,11 +1,11 @@
-#myid {
-    background-color: blue !important;
+.button {
+    background-color: #8c8c8c;
+    color: white;
+    padding: 5px;
+    border: 1px solid black;
 }
 
-.myclass {
-    background-color: gray !important;
-}
-
-p {
-    background-color: red !important;
+#myDiv a {
+    color: red;
+    background-color: yellow;
 }
