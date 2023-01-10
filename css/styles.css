@@ -6,5 +6,5 @@
     box-sizing: border-box;
     background-color: yellow;
     height: 100px;
-    width: max(50%, 300px);
+    width: min(50%, 300px);
 }
