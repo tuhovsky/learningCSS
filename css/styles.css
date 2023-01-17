@@ -1,6 +1,11 @@
-#example1 {
+/* #example1 {
     background-image: url(../images/img_flwr.gif), url(../images/Screenshot_1.png);
     background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
+    padding: 15px;
+} */
+
+#example1 {
+    background: url(../images/img_flwr.gif) right bottom no-repeat, url(../images/Screenshot_1.png) left top repeat;
     padding: 15px;
 }
