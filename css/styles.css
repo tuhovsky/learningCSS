@@ -1,5 +1,8 @@
-#example1 {
-    background: url(../images/img_tree.gif) left top no-repeat, url(../images/img_flwr.gif) right bottom no-repeat, url(../images/Screenshot_1.png) left top repeat;
-    padding: 15px;
-    background-size: 50px, 130px, auto;
+html {
+    background: url(../images/img_man.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    color: white;
 }
