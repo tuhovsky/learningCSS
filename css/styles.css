@@ -1,25 +1,5 @@
-.div1 {
-    border: 1px solid black;
-    height: 120px;
-    width: 150px;
-    background: url(../images/img_flwr.gif);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.div2 {
-    border: 1px solid black;
-    height: 120px;
-    width: 150px;
-    background: url(../images/img_flwr.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.div3 {
-    border: 1px solid black;
-    height: 120px;
-    width: 150px;
-    background: url(../images/img_flwr.gif);
-    background-repeat: no-repeat;
+#example1 {
+    background: url(../images/img_tree.gif) left top no-repeat, url(../images/img_flwr.gif) right bottom no-repeat, url(../images/Screenshot_1.png) left top repeat;
+    padding: 15px;
+    background-size: 50px, 130px, auto;
 }
