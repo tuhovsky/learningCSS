@@ -1,11 +1,14 @@
-/* #example1 {
-    background-image: url(../images/img_flwr.gif), url(../images/Screenshot_1.png);
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
-    padding: 15px;
-} */
-
 #example1 {
-    background: url(../images/img_flwr.gif) right bottom no-repeat, url(../images/Screenshot_1.png) left top repeat;
+    border: 1px solid black;
+    background: url(../images/img_flwr.gif);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+#example2 {
+    border: 1px solid black;
+    background: url(../images/img_flwr.gif);
+    background-repeat: no-repeat;
     padding: 15px;
 }
