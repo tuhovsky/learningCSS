@@ -1,14 +1,25 @@
-#example1 {
+.div1 {
     border: 1px solid black;
+    height: 120px;
+    width: 150px;
     background: url(../images/img_flwr.gif);
-    background-size: 100px 80px;
     background-repeat: no-repeat;
-    padding: 15px;
+    background-size: contain;
 }
 
-#example2 {
+.div2 {
     border: 1px solid black;
+    height: 120px;
+    width: 150px;
     background: url(../images/img_flwr.gif);
     background-repeat: no-repeat;
-    padding: 15px;
+    background-size: cover;
+}
+
+.div3 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(../images/img_flwr.gif);
+    background-repeat: no-repeat;
 }
