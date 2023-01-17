@@ -1,17 +1,6 @@
-#borderimg1 {
-    border: 10px solid transparent;
+#example1 {
+    background-image: url(../images/img_flwr.gif), url(../images/Screenshot_1.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
     padding: 15px;
-    border-image: url(../images/border.png) 50 round;
-}
-
-#borderimg2 {
-    border: 10px solid transparent;
-    padding: 15px;
-    border-image: url(../images/border.png) 20% round;
-}
-
-#borderimg3 {
-    border: 10px solid transparent;
-    padding: 15px;
-    border-image: url(../images/border.png) 30% round;
 }
