@@ -1,22 +1,19 @@
 #example1 {
-    border: 10px solid rgba(0, 0, 0, 0.5);
+    border: 10px dotted black;
     padding: 35px;
-    background: url(../images/Screenshot_1.png);
-    background-repeat: no-repeat;
+    background: yellowgreen;
 }
 
 #example2 {
-    border: 10px solid rgba(0, 0, 0, 0.5);
+    border: 10px dotted black;
     padding: 35px;
-    background: url(../images/Screenshot_1.png);
-    background-repeat: no-repeat;
-    background-origin: border-box;
+    background: yellowgreen;
+    background-clip: padding-box;
 }
 
 #example3 {
-    border: 10px solid rgba(0, 0, 0, 0.5);
+    border: 10px dotted black;
     padding: 35px;
-    background: url(../images/Screenshot_1.png);
-    background-repeat: no-repeat;
-    background-origin: content-box;
+    background: yellowgreen;
+    background-clip: content-box;
 }
