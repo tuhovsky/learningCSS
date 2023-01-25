@@ -1,5 +1,12 @@
+body {
+    color: purple;
+}
+
 div {
-    color: blue;
-    border: 10px solid currentColor;
+    background-color: currentColor;
     padding: 15px;
+}
+
+div p {
+    color: white;
 }
