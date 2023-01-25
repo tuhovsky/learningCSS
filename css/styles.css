@@ -1,15 +1,5 @@
-body {
-    background-image: url("../images/Screenshot_1.png");
-}
-
-div.ex1 {
-    background-color: lightgreen;
-    border: 2px solid black;
-    padding: 15px;
-}
-
-div.ex2 {
-    background-color: transparent;
-    border: 2px solid black;
+div {
+    color: blue;
+    border: 10px solid currentColor;
     padding: 15px;
 }
