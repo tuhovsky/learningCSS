@@ -1,3 +1,4 @@
 h1 {
-    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
