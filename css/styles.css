@@ -1,10 +1,5 @@
-div.test {
-    white-space: nowrap;
-    width: 200px;
-    overflow: hidden;
+p.test {
+    width: 11em;
     border: 1px solid #000000;
-}
-
-div.test:hover {
-    overflow: visible;
+    word-wrap: break-word;
 }
