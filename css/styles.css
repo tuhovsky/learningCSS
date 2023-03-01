@@ -1,16 +1,15 @@
-div.card {
-    width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+p.test1 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
 }
 
-div.header {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px;
-    font-size: 40px;
-}
-
-div.container {
-    padding: 10px;
+p.test2 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
