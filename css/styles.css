@@ -1,11 +1,11 @@
 p.test1 {
-    width: 140px;
-    border: 1px solid #000000;
-    word-break: keep-all;
+    writing-mode: horizontal-tb;
+}
+
+span.test2 {
+    writing-mode: vertical-rl;
 }
 
 p.test2 {
-    width: 140px;
-    border: 1px solid #000000;
-    word-break: break-all;
+    writing-mode: vertical-rl;
 }
