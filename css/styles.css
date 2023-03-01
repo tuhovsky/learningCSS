@@ -1,5 +1,11 @@
-p.test {
-    width: 11em;
+p.test1 {
+    width: 140px;
     border: 1px solid #000000;
-    word-wrap: break-word;
+    word-break: keep-all;
+}
+
+p.test2 {
+    width: 140px;
+    border: 1px solid #000000;
+    word-break: break-all;
 }
