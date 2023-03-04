@@ -1,11 +1,8 @@
-p.test1 {
-    writing-mode: horizontal-tb;
+@font-face {
+    font-family: myFirstFont;
+    src: url(Sansation_Light_Italic.woff);
 }
 
-span.test2 {
-    writing-mode: vertical-rl;
-}
-
-p.test2 {
-    writing-mode: vertical-rl;
+* {
+    font-family: myFirstFont;
 }
