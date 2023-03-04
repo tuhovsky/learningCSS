@@ -4,5 +4,5 @@ div {
     height: 100px;
     background-color: yellow;
     border: 1px solid black;
-    transform: scaleX(2);
+    transform: scaleX(0.5);
 }
