@@ -5,6 +5,10 @@ div {
     border: 1px solid black;
 }
 
-div#myDiv {
-    transform: skew(20deg);
+div#myDiv1 {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+div#myDiv2 {
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
 }
