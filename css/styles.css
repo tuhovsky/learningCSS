@@ -1,8 +1,10 @@
 div {
-    margin: 150px;
-    width: 200px;
+    width: 300px;
     height: 100px;
     background-color: yellow;
     border: 1px solid black;
-    transform: scaleY(0.5);
+}
+
+div#myDiv {
+    transform: skewX(20deg);
 }
