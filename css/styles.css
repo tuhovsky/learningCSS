@@ -1,14 +1,7 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(Sansation_Light_Italic.woff);
-}
-
-@font-face {
-    font-family: myFirstFont;
-    src: url(Sansation_Bold.woff);
-    font-weight: bold;
-}
-
-* {
-    font-family: myFirstFont;
+div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: translate(50px,100px);
 }
