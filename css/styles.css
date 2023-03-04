@@ -3,6 +3,12 @@
     src: url(Sansation_Light_Italic.woff);
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(Sansation_Bold.woff);
+    font-weight: bold;
+}
+
 * {
     font-family: myFirstFont;
 }
