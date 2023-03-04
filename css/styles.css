@@ -6,5 +6,5 @@ div {
 }
 
 #myDiv {
-    transform: rotateX(150deg);
+    transform: rotateY(150deg);
 }
