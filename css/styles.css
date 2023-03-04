@@ -6,5 +6,5 @@ div {
 }
 
 div#myDiv {
-    transform: skewX(20deg);
+    transform: skewY(20deg);
 }
