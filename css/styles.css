@@ -1,10 +1,8 @@
 div {
-    width: 300px;
+    margin: 150px;
+    width: 200px;
     height: 100px;
     background-color: yellow;
     border: 1px solid black;
-}
-
-div#myDiv {
-    transform: rotate(-20deg);
+    transform: scale(2, 3);
 }
