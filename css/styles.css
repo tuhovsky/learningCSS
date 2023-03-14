@@ -1,10 +1,10 @@
 div {
-    width: 300px;
+    width: 100px;
     height: 100px;
-    background-color: yellow;
-    border: 1px solid black;
+    background: red;
+    transition: width 2s;
 }
 
-#myDiv {
-    transform: rotateZ(90deg);
+div:hover {
+    width: 300px;
 }
