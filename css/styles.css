@@ -2,9 +2,10 @@ div {
     width: 100px;
     height: 100px;
     background: red;
-    transition: width 2s;
+    transition: width 2s, height 4s;
 }
 
 div:hover {
     width: 300px;
+    height: 300px;
 }
