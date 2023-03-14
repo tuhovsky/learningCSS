@@ -2,11 +2,12 @@ div {
     width: 100px;
     height: 100px;
     background: red;
-    transition: width 2s, heght 2s, transform 2s;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
 }
 
 div:hover {
     width: 300px;
-    height: 300px;
-    transform: rotate(180deg);
 }
