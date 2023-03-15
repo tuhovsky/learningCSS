@@ -1,10 +1,12 @@
 div {
     width: 100px;
     height: 100px;
-    background: red;
-    transition: width 2s linear 1s;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
 }
 
-div:hover {
-    width: 300px;
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
 }
