@@ -5,7 +5,8 @@ div {
     position: relative;
     animation-name: example;
     animation-duration: 4s;
-    animation-direction: reverse;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
 }
 
 @keyframes example {
