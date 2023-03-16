@@ -4,8 +4,8 @@ div {
     background-color: red;
     position: relative;
     animation-name: example;
-    animation-duration: 3s;
-    animation-delay: -2s;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
 }
 
 @keyframes example {
