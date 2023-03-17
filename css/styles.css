@@ -5,10 +5,11 @@ div {
     position: relative;
     animation-name: example;
     animation-duration: 3s;
-    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
 }
 
 @keyframes example {
-    from {top: 0px;}
-    to {top: 200px; background-color: blue;}
+    from {top: 0px; background-color: yellow;}
+    to {top: 200px;}
 }
