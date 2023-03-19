@@ -11,7 +11,7 @@
 
 .overlay {
     position: absolute;
-    bottom: 100%;
+    bottom: 0;
     left: 0;
     right: 0;
     background-color: #008cba;
@@ -22,7 +22,6 @@
 }
 
 .container:hover .overlay {
-    bottom: 0;
     height: 100%;
 }
 
