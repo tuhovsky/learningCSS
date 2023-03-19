@@ -17,7 +17,7 @@
     position: absolute;
     z-index: 1;
     top: -5px;
-    left: 105%;
+    right: 105%;
 }
 
 .tooltip:hover .tooltiptext {
