@@ -1,15 +1,23 @@
-div {
-    width: 100px;
-    height: 100px;
-    background: red;
+.tooltip {
     position: relative;
-    animation: myfirst 5s linear 2s infinite alternate;
+    display: inline-block;
+    border-bottom: 1px dotted black;
 }
 
-@keyframes myfirst {
-    0% {background-color: red; left: 0px; top: 0px;}
-    25% {background-color: yellow; left: 200px; top: 0px;}
-    50% {background-color: blue; left: 200px; top: 200px;}
-    75% {background-color: green; left: 0px; top: 200px;}
-    100% {background-color: red; left: 0px; top: 0px;}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+/* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
