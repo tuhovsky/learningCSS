@@ -12,7 +12,7 @@
 .overlay {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 100%;
     right: 0;
     background-color: #008cba;
     overflow: hidden;
@@ -23,6 +23,7 @@
 
 .container:hover .overlay {
     width: 100%;
+    left: 0;
 }
 
 .text {
