@@ -1,45 +1,21 @@
-.container {
-    position: relative;
-}
-
-.topleft {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    font-size: 18px;
-}
-
-.topright {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-    font-size: 18px;
-}
-
-.bottomleft {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    font-size: 18px;
-}
-
-.bottomright {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    font-size: 18px;
-}
-
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
+body {
+    background-color: white;
 }
 
 img {
-    width: 100%;
+    width: 9%;
     height: auto;
-    opacity: 0.3;
+    float: left;
+    max-width: 235px;
 }
+
+.blur {filter: blur(4px);}
+.brightness {filter: brightness(250%);}
+.contrast {filter: contrast(180%);}
+.grayscale {filter: grayscale(100%);}
+.huerotate {filter: hue-rotate(180deg);}
+.invert {filter: invert(100%);}
+.opacity {filter: opacity(50%);}
+.saturate {filter: saturate(7);}
+.sepia {filter: sepia(100%);}
+.shadow {filter: drop-shadow(8px 8px 10px green);}
