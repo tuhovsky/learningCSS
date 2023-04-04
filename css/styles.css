@@ -1,6 +1,6 @@
-img {
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-    object-position: 15% 100%;
+.mask1 {
+    -webkit-mask-image: url('../images/w3logo.png');
+    mask-image: url('../images/w3logo.png');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
 }
