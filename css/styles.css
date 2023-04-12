@@ -6,24 +6,26 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
 }
 
+.button1 {
+    font-size: 10px;
+}
+
 .button2 {
-    background-color: #008cba; /* Blue */
+    font-size: 12px;
 }
 
 .button3 {
-    background-color: #f44336; /* Red */
+    font-size: 16px;
 }
 
 .button4 {
-    background-color: #e7e7e7; /* Gray */
-    color: black;
+    font-size: 20px;
 }
 
 .button5 {
-    background-color: #555555; /* Black */
+    font-size: 24px;
 }
