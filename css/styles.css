@@ -1,5 +1,5 @@
-.center {
-    text-align: center;
+body {
+    background-color: white;
 }
 
 .pagination {
@@ -13,7 +13,6 @@
     text-decoration: none;
     transition: background-color .3s;
     border: 1px solid #ddd;
-    margin: 0 4px;
 }
 
 .pagination a.active {
