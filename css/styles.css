@@ -1,3 +1,7 @@
+.center {
+    text-align: center;
+}
+
 .pagination {
     display: inline-block;
 }
@@ -9,7 +13,7 @@
     text-decoration: none;
     transition: background-color .3s;
     border: 1px solid #ddd;
-    font-size: 22px;
+    margin: 0 4px;
 }
 
 .pagination a.active {
