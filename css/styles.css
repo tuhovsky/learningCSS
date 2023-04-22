@@ -9,7 +9,7 @@
     text-decoration: none;
     transition: background-color .3s;
     border: 1px solid #ddd;
-    margin: 0 4px;
+    font-size: 22px;
 }
 
 .pagination a.active {
