@@ -1,7 +1,5 @@
 .newspaper {
     column-count: 3;
     column-gap: 40px;
-    column-rule-style: solid;
-    column-rule-width: 1px;
-    column-rule-color: lightblue;
+    column-rule: solid 1px lightblue;
 }
