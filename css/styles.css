@@ -3,3 +3,7 @@
     column-gap: 40px;
     column-rule: solid 1px lightblue;
 }
+
+h2 {
+    column-span: all;
+}
