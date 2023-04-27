@@ -2,6 +2,6 @@ div {
     border: 2px solid;
     padding: 20px;
     width: 300px;
-    resize: horizontal;
+    resize: vertical;
     overflow: auto;
 }
