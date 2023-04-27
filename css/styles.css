@@ -1,20 +1,25 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+}
+
 body {
-    background-color: #1e90ff;
+    background-color: var(--blue);
 }
 
 h2 {
-    border-bottom: 2px solid #1e90ff;
+    border-bottom: 2px solid var(--blue);
 }
 
 .container {
-    color: #1e90ff;
-    background-color: #ffffff;
+    color: var(--blue);
+    background-color: var(--white);
     padding: 15px;
 }
 
 button {
-    background-color: #ffffff;
-    color: #1e90ff;
-    border: 1px solid #1e90ff;
+    background-color: var(--white);
+    color: var(--blue);
+    border: 1px solid var(--blue);
     padding: 5px;
 }
