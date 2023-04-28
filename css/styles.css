@@ -17,10 +17,9 @@ h2 {
     padding: 15px;
 }
 
-button {
-    --button-blue: #0000ff; /* new local variable */
+.container button {
     background-color: var(--white);
-    color: var(--button-blue);
-    border: 1px solid var(--button-blue);
+    color: var(--blue);
+    border: 1px solid var(--blue);
     padding: 5px;
 }
