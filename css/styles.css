@@ -18,6 +18,7 @@ h2 {
 }
 
 button {
+    --blue: #0000ff; /* local variable will override global */
     background-color: var(--white);
     color: var(--blue);
     border: 1px solid var(--blue);
