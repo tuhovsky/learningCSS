@@ -2,32 +2,30 @@
     box-sizing: border-box;
 }
 
-/* Style the top navigation bar */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a {
+/* Create four equal columns that floats next to each other */
+.column {
     float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    width: 25%;
+    padding: 20px;
 }
 
-/* Change color on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    .topnav a {
-        float: none;
+    .column {
         width: 100%;
     }
 }
