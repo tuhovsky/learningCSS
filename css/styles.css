@@ -1,7 +1,7 @@
 .flex-container {
     display: flex;
     height: 200px;
-    align-items: flex-end;
+    align-items: stretch;
     background-color: dodgerblue;
 }
 
