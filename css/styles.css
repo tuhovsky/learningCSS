@@ -1,7 +1,9 @@
 .flex-container {
     display: flex;
-    height: 200px;
-    align-items: baseline;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    overflow: scroll;
     background-color: dodgerblue;
 }
 
