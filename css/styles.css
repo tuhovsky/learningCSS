@@ -1,6 +1,6 @@
 .flex-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     background-color: dodgerblue;
 }
 
