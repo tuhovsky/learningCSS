@@ -1,10 +1,16 @@
 div.example {
-    background-color: yellow;
+    background-color: lightgray;
     padding: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
     div.example {
-        display: none;
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div.example {
+        font-size: 30px;
     }
 }
