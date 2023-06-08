@@ -4,8 +4,8 @@ body {
     background-image: url('../images/img_smallflower.jpg');
 }
 
-/* For width 400px and larger*/
-@media only screen and (min-width: 400px) {
+/* For device width 400px and larger*/
+@media only screen and (min-device-width: 400px) {
     body {
         background-image: url('../images/img_flowers.jpg');
     }
