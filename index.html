@@ -9,7 +9,12 @@
 </head>
 <body>
 
-    <p>Example</p>
+    <picture>
+        <source srcset="images/img_smallflower.jpg" media="(max-width: 400px)">
+        <source srcset="images/img_flowers.jpg">
+        <img src="images/img_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+    <p>Resize the browser width and the background image will change at 400px.</p>
     
 </body>
 </html>
