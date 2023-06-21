@@ -1,6 +1,10 @@
+.item1 {
+    grid-area: myArea;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-areas: 'myArea myArea myArea myArea myArea';
     gap: 10px;
     background-color: #2196f3;
     padding: 10px;
@@ -11,8 +15,4 @@
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-}
-
-.item8 {
-    grid-area: 2 / 1 / span 2 / span 3;
 }
